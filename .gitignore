@@ -133,6 +133,7 @@ dmypy.json
 
 # dataset
 mnist_train/
+*.tar 
 
 # experiments
 runs/

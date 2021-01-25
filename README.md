@@ -12,6 +12,13 @@ https://code.visualstudio.com/
 ## make new project & clone it
 https://github.com/
 
+## use virtualenv
+* default python lib management
+```shell
+# tutorial with virtualenv
+# TODO
+```
+
 ## make dev env
 * make env files
     * command + shift + p
@@ -30,6 +37,7 @@ RUN pip3 install torch==1.7.1 torchvision==0.8.2 jupyter tensorboard
 ...
 services:
   app:
+    image: <image_name>
     ...
     ports:
       - "6007:6006"
@@ -43,7 +51,7 @@ services:
 ...
 ```
 
-* jupyter notebook execution
+* (option)jupyter notebook execution
   * nohup jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --NotebookApp.token='' --NotebookApp.password='' --allow-root &
 
 ## Docker image usage
