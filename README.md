@@ -96,8 +96,16 @@ conda list
 ```
 
 ## docker env
-# TODO: docker env guide (figure and etcs)
-# TODO: docker-compose env guide
+![docker engine](https://docs.docker.com/engine/images/engine-components-flow.png)
+### Docker
+* overview: https://docs.docker.com/get-started/overview/
+* Get started
+* Develop with Docker: https://docs.docker.com/develop/
+* https://docs.docker.com/compose/
+### Docker-compose
+* overview: https://docs.docker.com/compose/
+### Docker-registry
+* overview: https://docs.docker.com/registry/
 
 ## make dev env
 * make env files
